@@ -40,7 +40,7 @@ xrft = "^1.0.1"
 metpy = "^1.4.1"
 xrpatcher = "^0.0.1"
 rootutils = "^1.0.7"
-omegaconf = "^2.3.0"
+numpy = "^1.25"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -60,6 +60,7 @@ hydra-core = "^1.3.2"
 matplotlib = "^3.7.1"
 seaborn = "^0.12.2"
 autoroot = "^1.0.0"
+omegaconf = "^2.3.0"
 
 
 [tool.poetry.group.jlab.dependencies]
