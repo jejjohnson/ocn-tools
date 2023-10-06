@@ -1,0 +1,41 @@
+name: oceanbench
+channels:
+  - conda-forge
+  - pyviz
+dependencies:
+  - python=3.10
+  - pip
+  - matplotlib
+  - cartopy
+  - hvplot
+  - arviz
+  - metpy
+  - pandas>=2
+  - xarray>=2023
+  - zarr
+  - dask
+  - netCDF4
+  - bottleneck
+  - scipy
+  - pyinterp
+  - xrft
+  - numpy_groupies
+  - xesmf>=0.7.0
+  - pint-xarray
+  - gcm_filters
+  - pytest
+  - dvc
+  - tqdm
+  - brotlipy
+  - cmocean
+  - jupyter-book
+  - ghp-import
+  - pip:
+      - hydra-core
+      - pyrootutils
+      - loguru
+      # - xarray-dataclasses
+      - xrpatcher
+      - autoroot
+      - einops
+      - corner
