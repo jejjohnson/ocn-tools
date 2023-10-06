@@ -1,4 +1,4 @@
-name: oceanbench
+name: ocntools
 channels:
   - conda-forge
   - pyviz
@@ -34,7 +34,6 @@ dependencies:
       - hydra-core
       - pyrootutils
       - loguru
-      # - xarray-dataclasses
       - xrpatcher
       - autoroot
       - einops
