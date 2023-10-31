@@ -31,8 +31,8 @@ We use conda/mamba as our package manager. To install from the provided environm
 run the following command.
 
 ```bash
-git clone https://github.com/jejjohnson/oceanbench.git
-cd oceanbench
+git clone https://github.com/jejjohnson/ocn-tools.git
+cd ocn-tools
 mamba env create -n environments/linux.yaml
 ```
 
@@ -40,9 +40,9 @@ mamba env create -n environments/linux.yaml
 if you want to add the oceanbench conda environment as a jupyter kernel, you need to set the ESMF environment variable:
 
 ```
-conda activate oceanbench
+conda activate ocntools
 mamba install ipykernel -y 
-python -m ipykernel install --user --name=oceanbench --env ESMFMKFILE "$ESMFMKFILE"
+python -m ipykernel install --user --name=ocntools --env ESMFMKFILE "$ESMFMKFILE"
 ```
 
 ### `pip`
