@@ -13,6 +13,7 @@ dependencies:
   - metpy
   - pandas>=2
   - xarray>=2023
+  - xarray-dataclasses
   - zarr
   - dask
   - netCDF4
