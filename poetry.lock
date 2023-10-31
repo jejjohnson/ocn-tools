@@ -5691,19 +5691,19 @@ viz = ["matplotlib", "nc-time-axis", "seaborn"]
 
 [[package]]
 name = "xarray-dataclasses"
-version = "1.6.0"
+version = "1.7.0"
 description = "xarray data creation made easy by dataclass"
 optional = false
-python-versions = ">=3.8,<3.12"
+python-versions = ">=3.8,<3.13"
 files = [
-    {file = "xarray_dataclasses-1.6.0-py3-none-any.whl", hash = "sha256:0f89070f84ccde055ee153da0d8e2cd3e4cb60f265e0cac8fb8e8551c3de876d"},
-    {file = "xarray_dataclasses-1.6.0.tar.gz", hash = "sha256:5ea909a960e26d9022851d962fac1378e64ff2095b3e0dddfa3afa7911a92cae"},
+    {file = "xarray_dataclasses-1.7.0-py3-none-any.whl", hash = "sha256:19ed91be2d36fd30f4714b2145c5b66808d3a1355798eb846900920b003060a9"},
+    {file = "xarray_dataclasses-1.7.0.tar.gz", hash = "sha256:b82b454c5800bf9d488c188d6362428e6bc310d2fc35f96fa4063efa40d33267"},
 ]
 
 [package.dependencies]
-numpy = ">=1.22,<2.0"
+numpy = {version = ">=1.22,<2.0", markers = "python_version >= \"3.9\" and python_version < \"3.13\""}
 typing-extensions = ">=4.0,<5.0"
-xarray = {version = ">=2022.3,<2023.0", markers = "python_version >= \"3.9\" and python_version < \"3.12\""}
+xarray = {version = ">=2022.3,<2024.0", markers = "python_version >= \"3.9\" and python_version < \"3.13\""}
 
 [[package]]
 name = "xesmf"
